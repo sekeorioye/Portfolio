@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Folaseke Orioye</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+							<i class="fa-solid fa-house-chimney"></i> Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">
+						<i class="fa-solid fa-pen-nib"></i> Portfolio
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+						<i class="fa-solid fa-user"></i> About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                            <i class="fa-solid fa-gear"></i>  Services
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+							<i class="fa-solid fa-phone"></i> Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Folaseke.</h1>
+                <h4 class="sub-heading">
+                    An upcoming Software Engineer with.
+                </h4>
+            </div>
+            <div class="headings" id="box"></div>
+            <div class="intro-buttons">
+               <a href="#contact" class="links"> <button class="btn common-btn">Hire Me</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h1 class="my-heading text-center">Featured Portfolio</h1>
+        </div>
+        <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image" id="image">
+                            <img src="images/freecodecamp.png" 
+                                 alt="Web Design Image">
+                        </div>
+                        <h3 class="greet-heading blue-text"> <a href="https://www.freecodecamp.org/certification/Folaseke/responsive-web-design" target="_blank" rel="noopener noreferrer" class="links" id="link"> Web Design</a></h3>
+                        <p class="small-para blue-text">Designing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+
+        <div class="about-text">
+            <h1 class="my-heading">About Me</h1>
+            <p class="lead-para">
+               My name is Folaseke Orioye I am 14 years old. I am a student of ISL and I am in SS2.
+            </p>
+            <p>
+               I have had a few trainings in web development.
+               During my Jss3 break in 2023 I was able to complete my Responsive web design certificate from 
+               <a href="http://www.freecodecamp.org" target="_blank" rel="noopener noreferrer" class="and">freecodecamp</a>.
+               I also completed <a href="http://https://www.linkedin.com/company/the-waas-project/" target="_blank" rel="noopener noreferrer" class="and"> The waas project</a>
+                training in basic python and git that same year.
+                </p>
+             <p>
+                I am currently trying to juggle my academic work and freecodecamp's JavaScript Algorithm and Data Structures Certification.
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="images/f4.jpg" alt="About Image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">My Services</h1>
+        </div>
+        <div class="services-content">
+                <div class="my-row">
+                    <div class="my-card" id="web">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Web Development
+                          </h3>
+                        <p class="small-para">
+                            As a developing web developer, I specialize in creating responsive, user-friendly websites that merge functionality with aesthetic appeal.
+                            I aim to bring your vision to life with my seamless precision . Whether you're a small business owner, a creative professional, or a growing brand, 
+                            I tailor my approach to meet your unique needs, ensuring your online presence not only stands out but also delivers results.
+                        </p>
+                        <p class="small-para">
+                            I haven't taken on any personal projects but i have been able to work on <b>seven</b> major Certification projects,
+                            five of these projects where for my Responsive Web Certification from freecodecamp and the other
+                            two where for The Waas Project python certificate.
+                        </p>
+                    </div>
+                
+            </div>
+            <div class="my-col">
+                <div class="my-row">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-table"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Data Analysis
+                          </h3>
+                        <p class="small-para">
+                            As a skilled Excel expert, I specialize in transforming raw data into meaningful insights through dynamic spreadsheets and automation.
+                             From designing user-friendly templates to implementing complex formulas and macros,
+                            I aim to streamline your workflows with precision and efficiency. Whether you're managing finances, tracking performance, or organizing data, 
+                            I tailor my solutions to meet your specific needs, ensuring your processes are both effective and effortless.
+                        </p>
+                </div>
+                <div class="my-row">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Video Editing
+                          </h3>
+                        <p class="small-para">
+                            As a self-taught video editor, I specialize in creating polished and engaging video presentations that leave a lasting impact.
+                             From seamless transitions to dynamic visuals and precise timing, I ensure every detail is crafted to captivate your audience.
+                              Whether you're delivering a corporate presentation, pitching a product, or sharing a story,
+                             I tailor my edits to align with your goals, enhancing your message with professional finesse.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">folasekeo@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+2348036365456</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">FAX</h5>
+                    <p class="contact-text">+2349154609425</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">Lagos, Nigeria</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+
+        <div class="footer-content text-center">
+            <h4>
+                Copyright © 2024 All rights reserved |
+                This portfolio website template is created 
+                  by ACT.
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://x.com/folaseke" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.instagram.com/classy_seke/" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a href="https://github.com/sekeorioye" target="_blank" rel="noopener noreferrer" class="footer-links">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" 
+    integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
